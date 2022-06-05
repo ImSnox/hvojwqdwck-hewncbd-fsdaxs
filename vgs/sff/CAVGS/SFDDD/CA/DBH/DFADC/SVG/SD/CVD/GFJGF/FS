@@ -1,0 +1,2236 @@
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local TextButton = Instance.new("TextButton")
+local TextButton_2 = Instance.new("TextButton")
+local TextButton_3 = Instance.new("TextButton")
+local TextButton_4 = Instance.new("TextButton")
+local TextButton_5 = Instance.new("TextButton")
+local TextButton_6 = Instance.new("TextButton")
+local TextButton_7 = Instance.new("TextButton")
+
+--Properties:
+
+ScreenGui.Parent = game.CoreGui
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+Frame.BackgroundTransparency = 0.050
+Frame.BorderColor3 = Color3.fromRGB(255, 255, 255)
+Frame.Position = UDim2.new(0.00603349507, 0, 0.814414799, 0)
+Frame.Size = UDim2.new(0, 354, 0, 106)
+
+TextLabel.Parent = Frame
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Position = UDim2.new(0.0300158486, 0, 0.0469210632, 0)
+TextLabel.Size = UDim2.new(0, 283, 0, 20)
+TextLabel.Font = Enum.Font.GothamBlack
+TextLabel.Text = "Commands V4 - ????????????"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextWrapped = true
+TextLabel.TextXAlignment = Enum.TextXAlignment.Left
+
+TextButton.Parent = Frame
+TextButton.BackgroundColor3 = Color3.fromRGB(122, 122, 122)
+TextButton.BackgroundTransparency = 0.500
+TextButton.BorderColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.Position = UDim2.new(0.0299500898, 0, 0.326745629, 0)
+TextButton.Size = UDim2.new(0, 138, 0, 24)
+TextButton.Font = Enum.Font.Gotham
+TextButton.Text = "Enable Effects"
+TextButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.TextSize = 14.000
+
+TextButton_2.Parent = Frame
+TextButton_2.BackgroundColor3 = Color3.fromRGB(122, 122, 122)
+TextButton_2.BackgroundTransparency = 0.500
+TextButton_2.BorderColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_2.Position = UDim2.new(0.0299500898, 0, 0.634347916, 0)
+TextButton_2.Size = UDim2.new(0, 138, 0, 24)
+TextButton_2.Font = Enum.Font.Gotham
+TextButton_2.Text = "Disable Effects"
+TextButton_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_2.TextSize = 14.000
+
+TextButton_3.Parent = Frame
+TextButton_3.BackgroundColor3 = Color3.fromRGB(122, 122, 122)
+TextButton_3.BackgroundTransparency = 0.500
+TextButton_3.BorderColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_3.Position = UDim2.new(0.441867083, 0, 0.326745629, 0)
+TextButton_3.Size = UDim2.new(0, 138, 0, 24)
+TextButton_3.Font = Enum.Font.Gotham
+TextButton_3.Text = "Enable Sound"
+TextButton_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_3.TextSize = 14.000
+
+TextButton_4.Parent = Frame
+TextButton_4.BackgroundColor3 = Color3.fromRGB(122, 122, 122)
+TextButton_4.BackgroundTransparency = 0.500
+TextButton_4.BorderColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_4.Position = UDim2.new(0.441867083, 0, 0.634347916, 0)
+TextButton_4.Size = UDim2.new(0, 138, 0, 24)
+TextButton_4.Font = Enum.Font.Gotham
+TextButton_4.Text = "Disable Sound"
+TextButton_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_4.TextSize = 14.000
+
+TextButton_5.Parent = Frame
+TextButton_5.BackgroundColor3 = Color3.fromRGB(122, 122, 122)
+TextButton_5.BackgroundTransparency = 0.500
+TextButton_5.BorderColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_5.Position = UDim2.new(0.851471603, 0, 0.326745659, 0)
+TextButton_5.Size = UDim2.new(0, 46, 0, 24)
+TextButton_5.Font = Enum.Font.Gotham
+TextButton_5.Text = "RV"
+TextButton_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_5.TextSize = 14.000
+
+TextButton_6.Parent = Frame
+TextButton_6.BackgroundColor3 = Color3.fromRGB(122, 122, 122)
+TextButton_6.BackgroundTransparency = 0.500
+TextButton_6.BorderColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_6.Position = UDim2.new(0.851471603, 0, 0.628632426, 0)
+TextButton_6.Size = UDim2.new(0, 46, 0, 24)
+TextButton_6.Font = Enum.Font.Gotham
+TextButton_6.Text = "BV"
+TextButton_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_6.TextSize = 14.000
+
+TextButton_7.Parent = Frame
+TextButton_7.BackgroundColor3 = Color3.fromRGB(122, 33, 33)
+TextButton_7.BackgroundTransparency = 0.500
+TextButton_7.BorderColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_7.Position = UDim2.new(0.851471663, 0, 0.0437265076, 0)
+TextButton_7.Size = UDim2.new(0, 46, 0, 24)
+TextButton_7.Font = Enum.Font.Gotham
+TextButton_7.Text = "X"
+TextButton_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_7.TextSize = 14.000
+
+-- Scripts:
+
+local function HMCANT_fake_script() -- TextLabel.LocalScript 
+	local script = Instance.new('LocalScript', TextLabel)
+
+	while true do
+		wait(8)
+		script.Parent.Text ="Commands V4 - "..math.random(9)..math.random(9)
+		wait(10)
+	end
+end
+coroutine.wrap(HMCANT_fake_script)()
+local function XTSKKI_fake_script() -- TextButton.LocalScript 
+	local script = Instance.new('LocalScript', TextButton)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local DarkMode = Instance.new('ColorCorrectionEffect', game.Lighting)
+		DarkMode.Name ="YYYUYYY"
+		DarkMode.Saturation = -1
+		DarkMode.Contrast = 1
+	end)
+end
+coroutine.wrap(XTSKKI_fake_script)()
+local function XOYZCS_fake_script() -- TextButton_2.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		game.Lighting.YYYUYYY:Destroy()
+	end)
+end
+coroutine.wrap(XOYZCS_fake_script)()
+local function JENIUVD_fake_script() -- TextButton_3.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_3)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		wait(1)
+		game.SoundService.YYUYY.Playing = true
+	end)
+end
+coroutine.wrap(JENIUVD_fake_script)()
+local function YZIFXQZ_fake_script() -- TextButton_3.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_3)
+
+	local Sound = Instance.new('Sound')
+	
+	Sound.Parent = game.SoundService
+	Sound.SoundId = "rbxassetid://9046862941"
+	Sound.Name ="YYUYY"
+end
+coroutine.wrap(YZIFXQZ_fake_script)()
+local function HXIBRT_fake_script() -- TextButton_4.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_4)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		wait(1)
+		game.SoundService.YYUYY.Playing = false
+	end)
+end
+coroutine.wrap(HXIBRT_fake_script)()
+local function JUSULY_fake_script() -- TextButton_5.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_5)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		error("404 Not Found!")
+	end)
+end
+coroutine.wrap(JUSULY_fake_script)()
+local function TBOBJ_fake_script() -- TextButton_6.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_6)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		error("404 Not Found!")
+	end)
+end
+coroutine.wrap(TBOBJ_fake_script)()
+local function JMJACQX_fake_script() -- TextButton_7.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_7)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent:Destroy()
+	end)
+end
+coroutine.wrap(JMJACQX_fake_script)()
+local function IRXFFW_fake_script() -- TextButton_7.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_7)
+
+	print("Loaded")
+end
+coroutine.wrap(IRXFFW_fake_script)()
+local function FVTZ_fake_script() -- TextButton_7.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_7)
+
+	print("Loaded")
+end
+coroutine.wrap(FVTZ_fake_script)()
+local function MNDFZE_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(MNDFZE_fake_script)()
+local function AKRY_fake_script() -- ScreenGui.Dragger 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	local UIS = game:GetService('UserInputService')
+	local frame = script.Parent
+	local dragToggle = nil
+	local dragSpeed = 0.25
+	local dragStart = nil
+	local startPos = nil
+	
+	local function updateInput(input)
+		local delta = input.Position - dragStart
+		local position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X,
+			startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+		game:GetService('TweenService'):Create(frame, TweenInfo.new(dragSpeed), {Position = position}):Play()
+	end
+	
+	frame.InputBegan:Connect(function(input)
+		if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) then 
+			dragToggle = true
+			dragStart = input.Position
+			startPos = frame.Position
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragToggle = false
+				end
+			end)
+		end
+	end)
+	
+	UIS.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			if dragToggle then
+				updateInput(input)
+			end
+		end
+	end)
+end
+coroutine.wrap(AKRY_fake_script)()
+local function EDWQZY_fake_script() -- nil.LocalScript 
+	local script = Instance.new('LocalScript', nil)
+
+	print("Loaded")
+end
+coroutine.wrap(EDWQZY_fake_script)()
+local function YSPTSFC_fake_script() -- nil.LocalScript 
+	local script = Instance.new('LocalScript', nil)
+
+	print("Loaded")
+end
+coroutine.wrap(YSPTSFC_fake_script)()
+local function KKTFGUG_fake_script() -- nil.LocalScript 
+	local script = Instance.new('LocalScript', nil)
+
+	print("Loaded")
+end
+coroutine.wrap(KKTFGUG_fake_script)()
+local function KMELDY_fake_script() -- nil.LocalScript 
+	local script = Instance.new('LocalScript', nil)
+
+	print("Loaded")
+end
+coroutine.wrap(KMELDY_fake_script)()
+local function PCBU_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(PCBU_fake_script)()
+local function SOZEMTW_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(SOZEMTW_fake_script)()
+local function WIYA_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(WIYA_fake_script)()
+local function UUTMG_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(UUTMG_fake_script)()
+local function PYKX_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(PYKX_fake_script)()
+local function SZWAA_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(SZWAA_fake_script)()
+local function XSQMNI_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(XSQMNI_fake_script)()
+local function EECDTH_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(EECDTH_fake_script)()
+local function SFYZQV_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(SFYZQV_fake_script)()
+local function QQIYC_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(QQIYC_fake_script)()
+local function VDMMNZ_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(VDMMNZ_fake_script)()
+local function CJWEMSQ_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(CJWEMSQ_fake_script)()
+local function QHGZYD_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(QHGZYD_fake_script)()
+local function URNCYUX_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(URNCYUX_fake_script)()
+local function RYDPB_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(RYDPB_fake_script)()
+local function MOAXJ_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(MOAXJ_fake_script)()
+local function SORAEQZ_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(SORAEQZ_fake_script)()
+local function GJWDUDH_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(GJWDUDH_fake_script)()
+local function TBDNIAB_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(TBDNIAB_fake_script)()
+local function QPMXLUG_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(QPMXLUG_fake_script)()
+local function NCMHSSF_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(NCMHSSF_fake_script)()
+local function XLXWZUL_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(XLXWZUL_fake_script)()
+local function RIMYUY_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(RIMYUY_fake_script)()
+local function YSZTZJA_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(YSZTZJA_fake_script)()
+local function JDQUJHL_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(JDQUJHL_fake_script)()
+local function FDUA_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(FDUA_fake_script)()
+local function LZELK_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(LZELK_fake_script)()
+local function BUFTZFB_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(BUFTZFB_fake_script)()
+local function JIEQ_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(JIEQ_fake_script)()
+local function SGQK_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(SGQK_fake_script)()
+local function NOOBT_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(NOOBT_fake_script)()
+local function DQUT_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(DQUT_fake_script)()
+local function OGMWRTI_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(OGMWRTI_fake_script)()
+local function OZPBL_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(OZPBL_fake_script)()
+local function OHLDI_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(OHLDI_fake_script)()
+local function TNLH_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(TNLH_fake_script)()
+local function UXFFIZ_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(UXFFIZ_fake_script)()
+local function KPODVV_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(KPODVV_fake_script)()
+local function SSWH_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(SSWH_fake_script)()
+local function QHJVFD_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(QHJVFD_fake_script)()
+local function RKUIXO_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(RKUIXO_fake_script)()
+local function TVXP_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(TVXP_fake_script)()
+local function JHRFE_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(JHRFE_fake_script)()
+local function ZMIKDM_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(ZMIKDM_fake_script)()
+local function MKMHXWJ_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(MKMHXWJ_fake_script)()
+local function DHJSB_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(DHJSB_fake_script)()
+local function WEKTAM_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(WEKTAM_fake_script)()
+local function LYIH_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(LYIH_fake_script)()
+local function KDSPZ_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(KDSPZ_fake_script)()
+local function OTIBOPU_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(OTIBOPU_fake_script)()
+local function OCJFDVG_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(OCJFDVG_fake_script)()
+local function IMFKKPY_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(IMFKKPY_fake_script)()
+local function GYLK_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(GYLK_fake_script)()
+local function LOFSS_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(LOFSS_fake_script)()
+local function ZFEY_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(ZFEY_fake_script)()
+local function BVFOY_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(BVFOY_fake_script)()
+local function TZJOZJU_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(TZJOZJU_fake_script)()
+local function YERC_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(YERC_fake_script)()
+local function AYTH_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(AYTH_fake_script)()
+local function KIYEMRE_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(KIYEMRE_fake_script)()
+local function GWVWCGR_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(GWVWCGR_fake_script)()
+local function HUSIDD_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(HUSIDD_fake_script)()
+local function EJSC_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(EJSC_fake_script)()
+local function ZRZDDEA_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(ZRZDDEA_fake_script)()
+local function QPKL_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(QPKL_fake_script)()
+local function UFCQJU_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(UFCQJU_fake_script)()
+local function AHGPMZI_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(AHGPMZI_fake_script)()
+local function YBDT_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(YBDT_fake_script)()
+local function DYJDWI_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(DYJDWI_fake_script)()
+local function JCROKK_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(JCROKK_fake_script)()
+local function OESHJU_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(OESHJU_fake_script)()
+local function AHOOXSB_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(AHOOXSB_fake_script)()
+local function YULTZ_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(YULTZ_fake_script)()
+local function IIQKO_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(IIQKO_fake_script)()
+local function EIYFCQK_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(EIYFCQK_fake_script)()
+local function SDGH_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(SDGH_fake_script)()
+local function WGLC_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(WGLC_fake_script)()
+local function OFEKYQU_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(OFEKYQU_fake_script)()
+local function OHRRP_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(OHRRP_fake_script)()
+local function XYDJP_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(XYDJP_fake_script)()
+local function IVMUACG_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(IVMUACG_fake_script)()
+local function QPMDRK_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(QPMDRK_fake_script)()
+local function QWGUYB_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(QWGUYB_fake_script)()
+local function GAAYBEE_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(GAAYBEE_fake_script)()
+local function NKGFW_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(NKGFW_fake_script)()
+local function TOCNWHI_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(TOCNWHI_fake_script)()
+local function UBYWTZ_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(UBYWTZ_fake_script)()
+local function XCDN_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(XCDN_fake_script)()
+local function MREFKG_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(MREFKG_fake_script)()
+local function VRSHQAZ_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(VRSHQAZ_fake_script)()
+local function YEFQC_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(YEFQC_fake_script)()
+local function OPBXYSX_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(OPBXYSX_fake_script)()
+local function VVZO_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(VVZO_fake_script)()
+local function YOXCVC_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(YOXCVC_fake_script)()
+local function UPRWEF_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(UPRWEF_fake_script)()
+local function JCBYHQW_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(JCBYHQW_fake_script)()
+local function QCLNKJ_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(QCLNKJ_fake_script)()
+local function OSAWLY_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(OSAWLY_fake_script)()
+local function MASJRZ_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(MASJRZ_fake_script)()
+local function RTYGC_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(RTYGC_fake_script)()
+local function KXSCYHC_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(KXSCYHC_fake_script)()
+local function TTES_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(TTES_fake_script)()
+local function RDENTI_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(RDENTI_fake_script)()
+local function MUWC_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(MUWC_fake_script)()
+local function UVNASM_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(UVNASM_fake_script)()
+local function HWGBHN_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(HWGBHN_fake_script)()
+local function YBAV_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(YBAV_fake_script)()
+local function YZAK_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(YZAK_fake_script)()
+local function HJTZM_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(HJTZM_fake_script)()
+local function OMUO_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(OMUO_fake_script)()
+local function LYMMFY_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(LYMMFY_fake_script)()
+local function HLMUPB_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(HLMUPB_fake_script)()
+local function YQQZEU_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(YQQZEU_fake_script)()
+local function WNGWE_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(WNGWE_fake_script)()
+local function VNJNG_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(VNJNG_fake_script)()
+local function SSOBRV_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(SSOBRV_fake_script)()
+local function KCIMZYO_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(KCIMZYO_fake_script)()
+local function ABXDSR_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(ABXDSR_fake_script)()
+local function JVHL_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(JVHL_fake_script)()
+local function MELFR_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(MELFR_fake_script)()
+local function RCONK_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(RCONK_fake_script)()
+local function HPIVTX_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(HPIVTX_fake_script)()
+local function YGTF_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(YGTF_fake_script)()
+local function IGKYTN_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(IGKYTN_fake_script)()
+local function IJNW_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(IJNW_fake_script)()
+local function VQHXSQ_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(VQHXSQ_fake_script)()
+local function AVFG_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(AVFG_fake_script)()
+local function FPFIBO_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(FPFIBO_fake_script)()
+local function OJTEG_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(OJTEG_fake_script)()
+local function TXZDVO_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(TXZDVO_fake_script)()
+local function XWDW_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(XWDW_fake_script)()
+local function CKDQU_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(CKDQU_fake_script)()
+local function JXUGN_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(JXUGN_fake_script)()
+local function XUSOUZ_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(XUSOUZ_fake_script)()
+local function SVUE_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(SVUE_fake_script)()
+local function DJGDO_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(DJGDO_fake_script)()
+local function QUMYDL_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(QUMYDL_fake_script)()
+local function LNFJ_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(LNFJ_fake_script)()
+local function MNDR_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(MNDR_fake_script)()
+local function DWVCOZ_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(DWVCOZ_fake_script)()
+local function PRBXF_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(PRBXF_fake_script)()
+local function JOIHG_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(JOIHG_fake_script)()
+local function LKDKV_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(LKDKV_fake_script)()
+local function YDKQCUC_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(YDKQCUC_fake_script)()
+local function AXXMHZ_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(AXXMHZ_fake_script)()
+local function ZIMWCXR_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(ZIMWCXR_fake_script)()
+local function MZOFRD_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(MZOFRD_fake_script)()
+local function LISWZO_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(LISWZO_fake_script)()
+local function BBRX_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(BBRX_fake_script)()
+local function XOXNH_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(XOXNH_fake_script)()
+local function VJHVYU_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(VJHVYU_fake_script)()
+local function PIXTRV_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(PIXTRV_fake_script)()
+local function ZWBZ_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(ZWBZ_fake_script)()
+local function SHKUCSE_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(SHKUCSE_fake_script)()
+local function QGMSHXL_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(QGMSHXL_fake_script)()
+local function XNZG_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(XNZG_fake_script)()
+local function UQGJNAY_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(UQGJNAY_fake_script)()
+local function DGWT_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(DGWT_fake_script)()
+local function FRJQKTV_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(FRJQKTV_fake_script)()
+local function UXNES_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(UXNES_fake_script)()
+local function FWUHR_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(FWUHR_fake_script)()
+local function OCTPV_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(OCTPV_fake_script)()
+local function QPTNDCT_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(QPTNDCT_fake_script)()
+local function IDVQ_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(IDVQ_fake_script)()
+local function TJYFQQE_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(TJYFQQE_fake_script)()
+local function HJRIUD_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(HJRIUD_fake_script)()
+local function SVNLNVY_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(SVNLNVY_fake_script)()
+local function CFEWLRB_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(CFEWLRB_fake_script)()
+local function LZRJKXX_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(LZRJKXX_fake_script)()
+local function LVGOCH_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(LVGOCH_fake_script)()
+local function DMMDEQ_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(DMMDEQ_fake_script)()
+local function FAKNP_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(FAKNP_fake_script)()
+local function IRYXQ_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(IRYXQ_fake_script)()
+local function DJGXK_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(DJGXK_fake_script)()
+local function AWNPIUZ_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(AWNPIUZ_fake_script)()
+local function VVISDB_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(VVISDB_fake_script)()
+local function VRRNW_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(VRRNW_fake_script)()
+local function UZPFU_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(UZPFU_fake_script)()
+local function ABITYDM_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(ABITYDM_fake_script)()
+local function ZBSEX_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(ZBSEX_fake_script)()
+local function UADFOMO_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(UADFOMO_fake_script)()
+local function PZKDP_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(PZKDP_fake_script)()
+local function YGQRPY_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(YGQRPY_fake_script)()
+local function BXHJCG_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(BXHJCG_fake_script)()
+local function GOSDSNN_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(GOSDSNN_fake_script)()
+local function JIIC_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(JIIC_fake_script)()
+local function MVEM_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(MVEM_fake_script)()
+local function WGMQW_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(WGMQW_fake_script)()
+local function OHWXOPI_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(OHWXOPI_fake_script)()
+local function EMTEBBH_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(EMTEBBH_fake_script)()
+local function DIVGVJA_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(DIVGVJA_fake_script)()
+local function CAEWRX_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(CAEWRX_fake_script)()
+local function JTQZ_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(JTQZ_fake_script)()
+local function IIJS_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(IIJS_fake_script)()
+local function FDSV_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(FDSV_fake_script)()
+local function ENULSW_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(ENULSW_fake_script)()
+local function JVQR_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(JVQR_fake_script)()
+local function WSXEQWV_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(WSXEQWV_fake_script)()
+local function YMUOF_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(YMUOF_fake_script)()
+local function QJNBHOP_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(QJNBHOP_fake_script)()
+local function VUGE_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(VUGE_fake_script)()
+local function DGHPCWD_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(DGHPCWD_fake_script)()
+local function ZXAY_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(ZXAY_fake_script)()
+local function RPCHLXW_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(RPCHLXW_fake_script)()
+local function WLIPX_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(WLIPX_fake_script)()
+local function JCUT_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(JCUT_fake_script)()
+local function BALM_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(BALM_fake_script)()
+local function VJSILE_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(VJSILE_fake_script)()
+local function WWPEHWN_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(WWPEHWN_fake_script)()
+local function RRGGK_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(RRGGK_fake_script)()
+local function HLJCB_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(HLJCB_fake_script)()
+local function GTZPSEU_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(GTZPSEU_fake_script)()
+local function QJMULRE_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(QJMULRE_fake_script)()
+local function PQKRHO_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(PQKRHO_fake_script)()
+local function ZNVJDEH_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(ZNVJDEH_fake_script)()
+local function JZEU_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(JZEU_fake_script)()
+local function VEKXO_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(VEKXO_fake_script)()
+local function QTSADNR_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(QTSADNR_fake_script)()
+local function RYJI_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(RYJI_fake_script)()
+local function ANXXLVX_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(ANXXLVX_fake_script)()
+local function THGZL_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(THGZL_fake_script)()
+local function EBDU_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(EBDU_fake_script)()
+local function CSBF_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(CSBF_fake_script)()
+local function QIIQGF_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(QIIQGF_fake_script)()
+local function YXXL_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(YXXL_fake_script)()
+local function BBFFAPT_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(BBFFAPT_fake_script)()
+local function KQQIS_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(KQQIS_fake_script)()
+local function ANRSIQ_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(ANRSIQ_fake_script)()
+local function ZOXQ_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(ZOXQ_fake_script)()
+local function SDMGAYK_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(SDMGAYK_fake_script)()
+local function YJMGAQF_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(YJMGAQF_fake_script)()
+local function SKMPI_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(SKMPI_fake_script)()
+local function CZVWW_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(CZVWW_fake_script)()
+local function OHKW_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(OHKW_fake_script)()
+local function XTJUDAJ_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(XTJUDAJ_fake_script)()
+local function TJFNZUJ_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(TJFNZUJ_fake_script)()
+local function XZSKL_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(XZSKL_fake_script)()
+local function WXGVMQ_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(WXGVMQ_fake_script)()
+local function HLDZAUU_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(HLDZAUU_fake_script)()
+local function ZELVG_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(ZELVG_fake_script)()
+local function TMHKFF_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(TMHKFF_fake_script)()
+local function HJQI_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(HJQI_fake_script)()
+local function PVNGD_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(PVNGD_fake_script)()
+local function ILCSS_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(ILCSS_fake_script)()
+local function RTHC_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(RTHC_fake_script)()
+local function OVONTK_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(OVONTK_fake_script)()
+local function TQXLNKD_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(TQXLNKD_fake_script)()
+local function RULPYGQ_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(RULPYGQ_fake_script)()
+local function OPEKEBD_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(OPEKEBD_fake_script)()
+local function WJQTIV_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(WJQTIV_fake_script)()
+local function RZSYO_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(RZSYO_fake_script)()
+local function XAXP_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(XAXP_fake_script)()
+local function ISVR_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(ISVR_fake_script)()
+local function KEZWGS_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(KEZWGS_fake_script)()
+local function KKBQ_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(KKBQ_fake_script)()
+local function IIBG_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(IIBG_fake_script)()
+local function YHNV_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(YHNV_fake_script)()
+local function KHJCYI_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(KHJCYI_fake_script)()
+local function EHDTIVS_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(EHDTIVS_fake_script)()
+local function WQFBI_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(WQFBI_fake_script)()
+local function BZHMW_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(BZHMW_fake_script)()
+local function BZCNG_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(BZCNG_fake_script)()
+local function QRLK_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(QRLK_fake_script)()
+local function VLTJV_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(VLTJV_fake_script)()
+local function LAFC_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(LAFC_fake_script)()
+local function KRBW_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(KRBW_fake_script)()
+local function OWQLSS_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(OWQLSS_fake_script)()
+local function MTCWCSD_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(MTCWCSD_fake_script)()
+local function CEJOS_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(CEJOS_fake_script)()
+local function SEGNU_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(SEGNU_fake_script)()
+local function MQNIKP_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(MQNIKP_fake_script)()
+local function IVKEU_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(IVKEU_fake_script)()
+local function ZMBFBM_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(ZMBFBM_fake_script)()
+local function UQNIDMS_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(UQNIDMS_fake_script)()
+local function VGMNGQ_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(VGMNGQ_fake_script)()
+local function UCFJ_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(UCFJ_fake_script)()
+local function GUJGZG_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(GUJGZG_fake_script)()
+local function PKGO_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(PKGO_fake_script)()
+local function INNSR_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(INNSR_fake_script)()
+local function EGXMEK_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(EGXMEK_fake_script)()
+local function VRRY_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(VRRY_fake_script)()
+local function FVJQV_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(FVJQV_fake_script)()
+local function SQSGJ_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(SQSGJ_fake_script)()
+local function WIAQNPL_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(WIAQNPL_fake_script)()
+local function QPGFZ_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(QPGFZ_fake_script)()
+local function DWCXPWR_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(DWCXPWR_fake_script)()
+local function UVQW_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(UVQW_fake_script)()
+local function OXBDU_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(OXBDU_fake_script)()
+local function WSCS_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(WSCS_fake_script)()
+local function OZJZWE_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(OZJZWE_fake_script)()
+local function NXVPWCO_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(NXVPWCO_fake_script)()
+local function WTODNSF_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(WTODNSF_fake_script)()
+local function XIHKP_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(XIHKP_fake_script)()
+local function EXSJ_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(EXSJ_fake_script)()
+local function CASBHA_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(CASBHA_fake_script)()
+local function MDYFI_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(MDYFI_fake_script)()
+local function LWDAB_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(LWDAB_fake_script)()
+local function QJDA_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(QJDA_fake_script)()
+local function FRJSYQ_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(FRJSYQ_fake_script)()
+local function OJXWA_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(OJXWA_fake_script)()
+local function CTXXSW_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(CTXXSW_fake_script)()
+local function JWCAE_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(JWCAE_fake_script)()
+local function LSIGVJ_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(LSIGVJ_fake_script)()
+local function EPMXVP_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(EPMXVP_fake_script)()
+local function NHFYIK_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(NHFYIK_fake_script)()
+local function MFEOHM_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(MFEOHM_fake_script)()
+local function PYHJ_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(PYHJ_fake_script)()
+local function JCIHAQD_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(JCIHAQD_fake_script)()
+local function SIBNN_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(SIBNN_fake_script)()
+local function HOMP_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(HOMP_fake_script)()
+local function VBNB_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(VBNB_fake_script)()
+local function GOQPINH_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(GOQPINH_fake_script)()
+local function VUJUBOK_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(VUJUBOK_fake_script)()
+local function NHINW_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(NHINW_fake_script)()
+local function BOTF_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(BOTF_fake_script)()
+local function TZUMTZ_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(TZUMTZ_fake_script)()
+local function RYXB_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(RYXB_fake_script)()
+local function NTRRLFU_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(NTRRLFU_fake_script)()
+local function WBUX_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(WBUX_fake_script)()
+local function QORMO_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(QORMO_fake_script)()
+local function ETPRCO_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(ETPRCO_fake_script)()
+local function YAYSP_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(YAYSP_fake_script)()
+local function NAYVLKD_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(NAYVLKD_fake_script)()
+local function XQLVQA_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(XQLVQA_fake_script)()
+local function YWDTQ_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(YWDTQ_fake_script)()
+local function JJYER_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Loaded")
+end
+coroutine.wrap(JJYER_fake_script)()
